@@ -24,5 +24,4 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: |
-        ./scripts/applyPatches.sh
-        mvn clean package
+        ./flamecord b
